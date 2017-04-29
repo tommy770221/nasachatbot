@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_nasa_hackson_nasachatbot_domain_MsgElement" items="${msgelements}" z="3G+8tgQGE0i1e16wmJ6EUIsGQ38=">
+        <table:table data="${msgelements}" id="l_com_nasa_hackson_nasachatbot_domain_MsgElement" path="/msgelements" z="owme/0Asca2lH4upeu/IRP9giXM=">
+            <table:column id="c_com_nasa_hackson_nasachatbot_domain_MsgElement_title" property="title" z="Pbf9MqODHq9oQBVDSwjnTGVH50w="/>
+            <table:column id="c_com_nasa_hackson_nasachatbot_domain_MsgElement_imageUrl" property="imageUrl" z="TElJuPL56EIurNbub0PbflSZ81s="/>
+            <table:column id="c_com_nasa_hackson_nasachatbot_domain_MsgElement_subtitle" property="subtitle" z="Rn5L+c2x8XyRD6ulFGE6FW/W4wE="/>
+            <table:column id="c_com_nasa_hackson_nasachatbot_domain_MsgElement_buttons" property="buttons" z="9mQ+pQkz+zNFJVVFLEKqdDYUIDk="/>
+        </table:table>
+    </page:list>
+</div>

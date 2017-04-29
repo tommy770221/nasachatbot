@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_nasa_hackson_nasachatbot_domain_PayLoad" object="${payload}" path="/payloads" z="KI4AMfEzEXJ4byj5BoXv25R6H6w=">
+        <field:display field="templateType" id="s_com_nasa_hackson_nasachatbot_domain_PayLoad_templateType" object="${payload}" z="e9x3L2s9VOF1GhUJuIKgibzT2lM="/>
+        <field:display field="elements" id="s_com_nasa_hackson_nasachatbot_domain_PayLoad_elements" object="${payload}" z="E1W/ls68Klff4p6PmqfB3EP9dyk="/>
+    </page:show>
+</div>

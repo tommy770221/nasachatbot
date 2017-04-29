@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_nasa_hackson_nasachatbot_domain_PeopleDecision" object="${peopledecision}" path="/peopledecisions" z="YeFhenbApKuA3GXHiqJqrq8GmKc=">
+        <field:display field="msgFBId" id="s_com_nasa_hackson_nasachatbot_domain_PeopleDecision_msgFBId" object="${peopledecision}" z="PQPL676BxrKvHLtJZvTIEN2IJJo="/>
+        <field:display field="gender" id="s_com_nasa_hackson_nasachatbot_domain_PeopleDecision_gender" object="${peopledecision}" z="2MSZku1EHv3+sdWYrNZvsEeJbQg="/>
+        <field:display field="actionButton" id="s_com_nasa_hackson_nasachatbot_domain_PeopleDecision_actionButton" object="${peopledecision}" z="S6YUW2SuWX6lPF+yiAxyWwApumA="/>
+        <field:display date="true" dateTimePattern="${peopleDecision_createdate_date_format}" field="createDate" id="s_com_nasa_hackson_nasachatbot_domain_PeopleDecision_createDate" object="${peopledecision}" z="5gR/TBa2uyWy/MYtpenk05qI9O0="/>
+        <field:display field="age" id="s_com_nasa_hackson_nasachatbot_domain_PeopleDecision_age" object="${peopledecision}" z="FaDc9xPniSxNnnnBdJ/2a2vKQb0="/>
+        <field:display field="positionX" id="s_com_nasa_hackson_nasachatbot_domain_PeopleDecision_positionX" object="${peopledecision}" z="TAbKJcHG/b2aH1CEYplSVwlfBj8="/>
+        <field:display field="positionY" id="s_com_nasa_hackson_nasachatbot_domain_PeopleDecision_positionY" object="${peopledecision}" z="6glmCR9MS6WbBQLeHccC3WZa0zw="/>
+    </page:show>
+</div>

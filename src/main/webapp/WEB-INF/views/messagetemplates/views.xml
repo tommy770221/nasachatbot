@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="messagetemplates/list">
+        <put-attribute name="body" value="/WEB-INF/views/messagetemplates/list.jspx"/>
+    </definition>
+<definition extends="default" name="messagetemplates/show">
+        <put-attribute name="body" value="/WEB-INF/views/messagetemplates/show.jspx"/>
+    </definition>
+<definition extends="default" name="messagetemplates/create">
+        <put-attribute name="body" value="/WEB-INF/views/messagetemplates/create.jspx"/>
+    </definition>
+<definition extends="default" name="messagetemplates/update">
+        <put-attribute name="body" value="/WEB-INF/views/messagetemplates/update.jspx"/>
+    </definition>
+</tiles-definitions>

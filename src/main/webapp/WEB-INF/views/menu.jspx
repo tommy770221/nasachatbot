@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_payload" z="r0sVRhI/JnbvSEpmzaIOH/Z11VY=">
+            <menu:item id="i_payload_new" messageCode="global_menu_new" url="/payloads?form" z="NnXVYdxgn6zYUd5himno94RLTew="/>
+            <menu:item id="i_payload_list" messageCode="global_menu_list" url="/payloads?page=1&amp;size=${empty param.size ? 10 : param.size}" z="gtSERFguoMuqCqr/fqw2oAYhmTc="/>
+        </menu:category>
+        <menu:category id="c_button" z="d+/y+lpPpOYY6Ss8duaotcU4Hsw=">
+            <menu:item id="i_button_new" messageCode="global_menu_new" url="/buttons?form" z="mg62GjxiFJYAyEZwlyqLvk96cug="/>
+            <menu:item id="i_button_list" messageCode="global_menu_list" url="/buttons?page=1&amp;size=${empty param.size ? 10 : param.size}" z="s3i9jncpyHhhdzERwXSyvwgidqo="/>
+        </menu:category>
+        <menu:category id="c_messagetemplate" z="iEnz3iKaWv+W9hkilZ49nKhBT/Y=">
+            <menu:item id="i_messagetemplate_new" messageCode="global_menu_new" url="/messagetemplates?form" z="Njcj8eJi0SKM7c3vD/UlbiiBlhs="/>
+            <menu:item id="i_messagetemplate_list" messageCode="global_menu_list" url="/messagetemplates?page=1&amp;size=${empty param.size ? 10 : param.size}" z="IAVw6dIS44EUyA2/qzGVVI4382Q="/>
+        </menu:category>
+        <menu:category id="c_message" z="2mg8OfqheWP/rnVu0slpEU516Yk=">
+            <menu:item id="i_message_new" messageCode="global_menu_new" url="/messages?form" z="6ME+t1wCXxIe0ueapV28lZ5YUi0="/>
+            <menu:item id="i_message_list" messageCode="global_menu_list" url="/messages?page=1&amp;size=${empty param.size ? 10 : param.size}" z="eGv0nXC/JpwInH30nZdjM2e3PxE="/>
+        </menu:category>
+        <menu:category id="c_msgelement" z="HmR9Uz3VlWE9HCYcF0oZW3C9Yp4=">
+            <menu:item id="i_msgelement_new" messageCode="global_menu_new" url="/msgelements?form" z="ECa4VYd1e5sVM/oAhFnd1wu+iP8="/>
+            <menu:item id="i_msgelement_list" messageCode="global_menu_list" url="/msgelements?page=1&amp;size=${empty param.size ? 10 : param.size}" z="jWIqjKGg5k1y288fMA8ucDGhjd0="/>
+        </menu:category>
+        <menu:category id="c_attachment" z="ILosBIgZtka54YO9aBOb14K+zdY=">
+            <menu:item id="i_attachment_new" messageCode="global_menu_new" url="/attachments?form" z="f5MXI6RSW9sXXvkGg68SWJg0apc="/>
+            <menu:item id="i_attachment_list" messageCode="global_menu_list" url="/attachments?page=1&amp;size=${empty param.size ? 10 : param.size}" z="W61D2on9MDhfSV7J58ZOsuWhNlQ="/>
+        </menu:category>
+        <menu:category id="c_peopledecision" z="nMNpFCZBvQTHNCGrht6YFCAzoZQ=">
+            <menu:item id="i_peopledecision_new" messageCode="global_menu_new" url="/peopledecisions?form" z="JbrDvqJWCYc3JodZ9vhrhdx0kuc="/>
+            <menu:item id="i_peopledecision_list" messageCode="global_menu_list" url="/peopledecisions?page=1&amp;size=${empty param.size ? 10 : param.size}" z="ZJ+c0KAai6ZoDK4YnFEZ2qsliNo="/>
+        </menu:category>
+    </menu:menu>
+</div>

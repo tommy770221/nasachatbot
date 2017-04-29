@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_nasa_hackson_nasachatbot_domain_MsgElement" modelAttribute="msgElement" path="/msgelements" versionField="Version" z="RgCANXfIRb8Q06Fahhb545egdWo=">
+        <field:input field="title" id="c_com_nasa_hackson_nasachatbot_domain_MsgElement_title" z="eP0INeNReGMvrvEaH6JWVRp+RtQ="/>
+        <field:input field="imageUrl" id="c_com_nasa_hackson_nasachatbot_domain_MsgElement_imageUrl" z="cHQULBlRyi98LxMAwlJeJQ86UHc="/>
+        <field:input field="subtitle" id="c_com_nasa_hackson_nasachatbot_domain_MsgElement_subtitle" z="2t2AchLQclUKS6Gjk7JIOok5DxE="/>
+        <field:select field="buttons" id="c_com_nasa_hackson_nasachatbot_domain_MsgElement_buttons" itemValue="id" items="${buttons}" multiple="true" path="/buttons" z="6d5QONKpyAXTnQJ0wB20FdrUY74="/>
+    </form:update>
+</div>

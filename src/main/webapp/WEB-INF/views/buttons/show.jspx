@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_nasa_hackson_nasachatbot_domain_Button" object="${button}" path="/buttons" z="IUIRBGbhPwAJr0z1ACQ0Iz9nMa0=">
+        <field:display field="type" id="s_com_nasa_hackson_nasachatbot_domain_Button_type" object="${button}" z="az83y/n4uNqt8mjotfN9wpgDs4c="/>
+        <field:display field="url" id="s_com_nasa_hackson_nasachatbot_domain_Button_url" object="${button}" z="05Ub7y+2SJLKXmqPWaViw4QoxKU="/>
+        <field:display field="title" id="s_com_nasa_hackson_nasachatbot_domain_Button_title" object="${button}" z="Jk4FL0hWoAKXkBDGNEOv643/uSQ="/>
+        <field:display field="goTotemplate" id="s_com_nasa_hackson_nasachatbot_domain_Button_goTotemplate" object="${button}" z="u6q3etWihY1OBFfgmv8p1O9uN18="/>
+    </page:show>
+</div>
