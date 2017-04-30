@@ -7,7 +7,7 @@
             <table:column id="c_com_nasa_hackson_nasachatbot_domain_MsgElement_title" property="title" z="Pbf9MqODHq9oQBVDSwjnTGVH50w="/>
             <table:column id="c_com_nasa_hackson_nasachatbot_domain_MsgElement_imageUrl" property="imageUrl" z="TElJuPL56EIurNbub0PbflSZ81s="/>
             <table:column id="c_com_nasa_hackson_nasachatbot_domain_MsgElement_subtitle" property="subtitle" z="Rn5L+c2x8XyRD6ulFGE6FW/W4wE="/>
-            <table:column id="c_com_nasa_hackson_nasachatbot_domain_MsgElement_buttons" property="buttons" z="9mQ+pQkz+zNFJVVFLEKqdDYUIDk="/>
+            <table:column id="c_com_nasa_hackson_nasachatbot_domain_MsgElement_name" property="name" z="KReLJlkELK5xGtx69RjLsDKm/0Q="/>
         </table:table>
     </page:list>
 </div>

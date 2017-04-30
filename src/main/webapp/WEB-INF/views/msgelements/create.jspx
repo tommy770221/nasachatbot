@@ -6,7 +6,7 @@
         <field:input field="title" id="c_com_nasa_hackson_nasachatbot_domain_MsgElement_title" z="eP0INeNReGMvrvEaH6JWVRp+RtQ="/>
         <field:input field="imageUrl" id="c_com_nasa_hackson_nasachatbot_domain_MsgElement_imageUrl" z="cHQULBlRyi98LxMAwlJeJQ86UHc="/>
         <field:input field="subtitle" id="c_com_nasa_hackson_nasachatbot_domain_MsgElement_subtitle" z="2t2AchLQclUKS6Gjk7JIOok5DxE="/>
-        <field:select field="buttons" id="c_com_nasa_hackson_nasachatbot_domain_MsgElement_buttons" itemValue="id" items="${buttons}" multiple="true" path="/buttons" z="6d5QONKpyAXTnQJ0wB20FdrUY74="/>
+        <field:input field="name" id="c_com_nasa_hackson_nasachatbot_domain_MsgElement_name" z="kKJFSEz48I9uNnT1iqUl8ep7Zg0="/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_com_nasa_hackson_nasachatbot_domain_MsgElement" render="${not empty dependencies}" z="7bCPTXlmtI18RrhCaIuWbyBgYZo="/>
 </div>

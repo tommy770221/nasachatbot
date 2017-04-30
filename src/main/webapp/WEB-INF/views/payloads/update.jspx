@@ -4,6 +4,6 @@
     <jsp:output omit-xml-declaration="yes"/>
     <form:update id="fu_com_nasa_hackson_nasachatbot_domain_PayLoad" modelAttribute="payLoad" path="/payloads" versionField="Version" z="vi1zQ0/OKMjWF8n4QQH0vJPXbYU=">
         <field:input field="templateType" id="c_com_nasa_hackson_nasachatbot_domain_PayLoad_templateType" z="uSiMWDDBXzHGukMWkg2eHFyidnI="/>
-        <field:select field="elements" id="c_com_nasa_hackson_nasachatbot_domain_PayLoad_elements" itemValue="id" items="${msgelements}" multiple="true" path="/msgelements" z="8goW/QrlMidIpwlQ3QkqrKo4GXY="/>
+        <field:input field="name" id="c_com_nasa_hackson_nasachatbot_domain_PayLoad_name" z="kbz2EohXpXBTHRfbwwxGKBMNhKs="/>
     </form:update>
 </div>

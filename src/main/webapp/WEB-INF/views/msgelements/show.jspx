@@ -6,6 +6,6 @@
         <field:display field="title" id="s_com_nasa_hackson_nasachatbot_domain_MsgElement_title" object="${msgelement}" z="YrIt0IbYumw7LZa8SqNSgxxqqSU="/>
         <field:display field="imageUrl" id="s_com_nasa_hackson_nasachatbot_domain_MsgElement_imageUrl" object="${msgelement}" z="sgIG5RGvKQT9FglK0wS09zXp5mM="/>
         <field:display field="subtitle" id="s_com_nasa_hackson_nasachatbot_domain_MsgElement_subtitle" object="${msgelement}" z="BdNT61pE0CWXSzax4IupqS1CQ7Y="/>
-        <field:display field="buttons" id="s_com_nasa_hackson_nasachatbot_domain_MsgElement_buttons" object="${msgelement}" z="zSetmC4VhmOlnkjGecGgSTBZjWw="/>
+        <field:display field="name" id="s_com_nasa_hackson_nasachatbot_domain_MsgElement_name" object="${msgelement}" z="i157en/BQCTgTp/bCask1n5VuEU="/>
     </page:show>
 </div>

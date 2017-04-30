@@ -4,5 +4,6 @@
     <jsp:output omit-xml-declaration="yes"/>
     <form:update id="fu_com_nasa_hackson_nasachatbot_domain_Message" modelAttribute="message" path="/messages" versionField="Version" z="uiT1TX4DgPcNmW79AIHIDUBKYgE=">
         <field:select field="attachment" id="c_com_nasa_hackson_nasachatbot_domain_Message_attachment" itemValue="id" items="${attachments}" path="/attachments" z="Kt2u8/0ikncvC9qMST0DYk/av4c="/>
+        <field:input field="name" id="c_com_nasa_hackson_nasachatbot_domain_Message_name" z="ph5zRLRRN1uSXJXg6ODR0DyNBKs="/>
     </form:update>
 </div>

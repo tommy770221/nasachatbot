@@ -5,6 +5,7 @@
     <page:list id="pl_com_nasa_hackson_nasachatbot_domain_Message" items="${messages}" z="540QnKYSGYSrKyooUKP117/jyCE=">
         <table:table data="${messages}" id="l_com_nasa_hackson_nasachatbot_domain_Message" path="/messages" z="cdWbbNNhwL6YmIFud0i/dp1nyoU=">
             <table:column id="c_com_nasa_hackson_nasachatbot_domain_Message_attachment" property="attachment" z="mSSHzJTy3tqMPuaj8ROvA6Hg7Fo="/>
+            <table:column id="c_com_nasa_hackson_nasachatbot_domain_Message_name" property="name" z="oJa1/7diaOdKaDegg6kNXYL2QPY="/>
         </table:table>
     </page:list>
 </div>

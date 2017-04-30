@@ -10,6 +10,7 @@ import com.nasa.hackson.nasachatbot.domain.Messagetemplate;
 import com.nasa.hackson.nasachatbot.domain.MsgElement;
 import com.nasa.hackson.nasachatbot.domain.PayLoad;
 import com.nasa.hackson.nasachatbot.domain.PeopleDecision;
+import com.nasa.hackson.nasachatbot.domain.PeopleDetail;
 import com.nasa.hackson.nasachatbot.web.controller.ApplicationConversionServiceFactoryBean;
 import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.core.convert.converter.Converter;
@@ -22,7 +23,7 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
     public Converter<Attachment, String> ApplicationConversionServiceFactoryBean.getAttachmentToStringConverter() {
         return new org.springframework.core.convert.converter.Converter<com.nasa.hackson.nasachatbot.domain.Attachment, java.lang.String>() {
             public String convert(Attachment attachment) {
-                return new StringBuilder().append(attachment.getType()).toString();
+                return new StringBuilder().append(attachment.getType()).append(' ').append(attachment.getName()).toString();
             }
         };
     }
@@ -70,7 +71,7 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
     public Converter<Message, String> ApplicationConversionServiceFactoryBean.getMessageToStringConverter() {
         return new org.springframework.core.convert.converter.Converter<com.nasa.hackson.nasachatbot.domain.Message, java.lang.String>() {
             public String convert(Message message) {
-                return "(no displayable fields)";
+                return new StringBuilder().append(message.getName()).toString();
             }
         };
     }
@@ -118,7 +119,7 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
     public Converter<MsgElement, String> ApplicationConversionServiceFactoryBean.getMsgElementToStringConverter() {
         return new org.springframework.core.convert.converter.Converter<com.nasa.hackson.nasachatbot.domain.MsgElement, java.lang.String>() {
             public String convert(MsgElement msgElement) {
-                return new StringBuilder().append(msgElement.getTitle()).append(' ').append(msgElement.getImageUrl()).append(' ').append(msgElement.getSubtitle()).toString();
+                return new StringBuilder().append(msgElement.getTitle()).append(' ').append(msgElement.getImageUrl()).append(' ').append(msgElement.getSubtitle()).append(' ').append(msgElement.getName()).toString();
             }
         };
     }
@@ -142,7 +143,7 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
     public Converter<PayLoad, String> ApplicationConversionServiceFactoryBean.getPayLoadToStringConverter() {
         return new org.springframework.core.convert.converter.Converter<com.nasa.hackson.nasachatbot.domain.PayLoad, java.lang.String>() {
             public String convert(PayLoad payLoad) {
-                return new StringBuilder().append(payLoad.getTemplateType()).toString();
+                return new StringBuilder().append(payLoad.getTemplateType()).append(' ').append(payLoad.getName()).toString();
             }
         };
     }
@@ -187,6 +188,30 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
         };
     }
     
+    public Converter<PeopleDetail, String> ApplicationConversionServiceFactoryBean.getPeopleDetailToStringConverter() {
+        return new org.springframework.core.convert.converter.Converter<com.nasa.hackson.nasachatbot.domain.PeopleDetail, java.lang.String>() {
+            public String convert(PeopleDetail peopleDetail) {
+                return new StringBuilder().append(peopleDetail.getMsgId()).append(' ').append(peopleDetail.getGender()).append(' ').append(peopleDetail.getPostionX()).append(' ').append(peopleDetail.getPostionY()).toString();
+            }
+        };
+    }
+    
+    public Converter<Long, PeopleDetail> ApplicationConversionServiceFactoryBean.getIdToPeopleDetailConverter() {
+        return new org.springframework.core.convert.converter.Converter<java.lang.Long, com.nasa.hackson.nasachatbot.domain.PeopleDetail>() {
+            public com.nasa.hackson.nasachatbot.domain.PeopleDetail convert(java.lang.Long id) {
+                return PeopleDetail.findPeopleDetail(id);
+            }
+        };
+    }
+    
+    public Converter<String, PeopleDetail> ApplicationConversionServiceFactoryBean.getStringToPeopleDetailConverter() {
+        return new org.springframework.core.convert.converter.Converter<java.lang.String, com.nasa.hackson.nasachatbot.domain.PeopleDetail>() {
+            public com.nasa.hackson.nasachatbot.domain.PeopleDetail convert(String id) {
+                return getObject().convert(getObject().convert(id, Long.class), PeopleDetail.class);
+            }
+        };
+    }
+    
     public void ApplicationConversionServiceFactoryBean.installLabelConverters(FormatterRegistry registry) {
         registry.addConverter(getAttachmentToStringConverter());
         registry.addConverter(getIdToAttachmentConverter());
@@ -209,6 +234,9 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
         registry.addConverter(getPeopleDecisionToStringConverter());
         registry.addConverter(getIdToPeopleDecisionConverter());
         registry.addConverter(getStringToPeopleDecisionConverter());
+        registry.addConverter(getPeopleDetailToStringConverter());
+        registry.addConverter(getIdToPeopleDetailConverter());
+        registry.addConverter(getStringToPeopleDetailConverter());
     }
     
     public void ApplicationConversionServiceFactoryBean.afterPropertiesSet() {

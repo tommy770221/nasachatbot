@@ -3,7 +3,6 @@
 
 package com.nasa.hackson.nasachatbot.web.controller;
 
-import com.nasa.hackson.nasachatbot.domain.MsgElement;
 import com.nasa.hackson.nasachatbot.domain.PayLoad;
 import com.nasa.hackson.nasachatbot.web.controller.PayLoadController;
 import java.io.UnsupportedEncodingException;
@@ -87,7 +86,6 @@ privileged aspect PayLoadController_Roo_Controller {
     
     void PayLoadController.populateEditForm(Model uiModel, PayLoad payLoad) {
         uiModel.addAttribute("payLoad", payLoad);
-        uiModel.addAttribute("msgelements", MsgElement.findAllMsgElements());
     }
     
     String PayLoadController.encodeUrlPathSegment(String pathSegment, HttpServletRequest httpServletRequest) {

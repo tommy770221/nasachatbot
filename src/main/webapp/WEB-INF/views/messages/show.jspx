@@ -4,5 +4,6 @@
     <jsp:output omit-xml-declaration="yes"/>
     <page:show id="ps_com_nasa_hackson_nasachatbot_domain_Message" object="${message}" path="/messages" z="ONtfOwiQBgDoYioaD/5JjufTqtI=">
         <field:display field="attachment" id="s_com_nasa_hackson_nasachatbot_domain_Message_attachment" object="${message}" z="PRNZcN93nTsWuhk30sCSDMqaMlE="/>
+        <field:display field="name" id="s_com_nasa_hackson_nasachatbot_domain_Message_name" object="${message}" z="2XP8BHpqIReq1UCqNXARu51tqqs="/>
     </page:show>
 </div>

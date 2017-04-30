@@ -6,6 +6,7 @@
         <table:table data="${attachments}" id="l_com_nasa_hackson_nasachatbot_domain_Attachment" path="/attachments" z="Hv48PiTOuLniQSjcQRQ3EZuZU/w=">
             <table:column id="c_com_nasa_hackson_nasachatbot_domain_Attachment_type" property="type" z="N+35VRudYEnzMmlSjcQGBA3paHI="/>
             <table:column id="c_com_nasa_hackson_nasachatbot_domain_Attachment_payload" property="payload" z="kZlpcZBziyPpK8zZxTXQILnIpdk="/>
+            <table:column id="c_com_nasa_hackson_nasachatbot_domain_Attachment_name" property="name" z="rWh+GZTKGM48ZuonwQpLXrzo+JI="/>
         </table:table>
     </page:list>
 </div>

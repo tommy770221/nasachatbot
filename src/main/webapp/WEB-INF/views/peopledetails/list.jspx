@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_nasa_hackson_nasachatbot_domain_PeopleDetail" items="${peopledetails}" z="4XaIViGUynDvwwB024t+t20nSv0=">
+        <table:table data="${peopledetails}" id="l_com_nasa_hackson_nasachatbot_domain_PeopleDetail" path="/peopledetails" z="8ocWUGtXQSldUzSXsZzcW6j4yTA=">
+            <table:column id="c_com_nasa_hackson_nasachatbot_domain_PeopleDetail_msgId" property="msgId" z="Gpo61DDBDd7UhYf/5tueWqqJjsY="/>
+            <table:column id="c_com_nasa_hackson_nasachatbot_domain_PeopleDetail_gender" property="gender" z="r3gEbSAKvZ9zZbCVoz6ARpWoJuQ="/>
+            <table:column id="c_com_nasa_hackson_nasachatbot_domain_PeopleDetail_postionX" property="postionX" z="On3tPc2rsUAr90Rutz3K7hofQNY="/>
+            <table:column id="c_com_nasa_hackson_nasachatbot_domain_PeopleDetail_postionY" property="postionY" z="PzVR9t+bx6ugCAwBh41CRsV6hGs="/>
+            <table:column id="c_com_nasa_hackson_nasachatbot_domain_PeopleDetail_country" property="country" z="4Wn21+FtoOybuOPY83dVMT9Q2Mw="/>
+            <table:column id="c_com_nasa_hackson_nasachatbot_domain_PeopleDetail_age" property="age" z="+aD21WKaNoEPtbcPmUAiMeL3tX8="/>
+        </table:table>
+    </page:list>
+</div>

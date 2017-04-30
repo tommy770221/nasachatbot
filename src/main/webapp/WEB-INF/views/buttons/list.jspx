@@ -4,10 +4,10 @@
     <jsp:output omit-xml-declaration="yes"/>
     <page:list id="pl_com_nasa_hackson_nasachatbot_domain_Button" items="${buttons}" z="j+/Xfl0f+zSULb64Ux0ne/zqAdw=">
         <table:table data="${buttons}" id="l_com_nasa_hackson_nasachatbot_domain_Button" path="/buttons" z="NsTP1AO68oij70SlggNpXrOPKtk=">
+            <table:column id="c_com_nasa_hackson_nasachatbot_domain_Button_goTotemplate" property="goTotemplate" z="ijTUKri217qmEhXUaT0adSJiT1w="/>
             <table:column id="c_com_nasa_hackson_nasachatbot_domain_Button_type" property="type" z="4Dl3Y1p8Bpx81HPlXQDYumM7u2s="/>
             <table:column id="c_com_nasa_hackson_nasachatbot_domain_Button_url" property="url" z="yaE8CclUkJuxhlwLv/NRzu0BYt4="/>
             <table:column id="c_com_nasa_hackson_nasachatbot_domain_Button_title" property="title" z="TbBpOa3KakSjsmnIjwzlRn0pxCQ="/>
-            <table:column id="c_com_nasa_hackson_nasachatbot_domain_Button_goTotemplate" property="goTotemplate" z="ijTUKri217qmEhXUaT0adSJiT1w="/>
             <table:column id="c_com_nasa_hackson_nasachatbot_domain_Button_name" property="name" z="5xK4clXhHnzp7wTwlklO8p7fuC4="/>
         </table:table>
     </page:list>

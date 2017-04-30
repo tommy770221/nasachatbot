@@ -5,7 +5,7 @@
     <page:list id="pl_com_nasa_hackson_nasachatbot_domain_PayLoad" items="${payloads}" z="JlTQZ45PcqYqHG4W9OAWXSo3hgs=">
         <table:table data="${payloads}" id="l_com_nasa_hackson_nasachatbot_domain_PayLoad" path="/payloads" z="1FVEOEjWp/3VbAsZxMSeVroogNE=">
             <table:column id="c_com_nasa_hackson_nasachatbot_domain_PayLoad_templateType" property="templateType" z="CMFM5/d10M+BkRN6bwV3w2prj5U="/>
-            <table:column id="c_com_nasa_hackson_nasachatbot_domain_PayLoad_elements" property="elements" z="FWLxzfUXiB+W1GiWDUbmwi0QLd4="/>
+            <table:column id="c_com_nasa_hackson_nasachatbot_domain_PayLoad_name" property="name" z="UFhlmY1+tq4pgtdkHNiMPlr4H60="/>
         </table:table>
     </page:list>
 </div>

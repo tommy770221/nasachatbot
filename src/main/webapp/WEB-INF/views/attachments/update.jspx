@@ -5,5 +5,6 @@
     <form:update id="fu_com_nasa_hackson_nasachatbot_domain_Attachment" modelAttribute="attachment" path="/attachments" versionField="Version" z="jUQAeHdGQ2nzgGwtFrJOtxmOqrw=">
         <field:input field="type" id="c_com_nasa_hackson_nasachatbot_domain_Attachment_type" z="o9UPbvfXtNShXmG/73lTcDRo+Eg="/>
         <field:select field="payload" id="c_com_nasa_hackson_nasachatbot_domain_Attachment_payload" itemValue="id" items="${payloads}" path="/payloads" z="7PcyjblS8fmh9FuaMyWL2IzYpKs="/>
+        <field:input field="name" id="c_com_nasa_hackson_nasachatbot_domain_Attachment_name" z="gktVVd9j/f3zAI7gWjdUs6bjpo0="/>
     </form:update>
 </div>

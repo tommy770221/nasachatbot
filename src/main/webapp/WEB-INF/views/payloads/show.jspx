@@ -4,6 +4,6 @@
     <jsp:output omit-xml-declaration="yes"/>
     <page:show id="ps_com_nasa_hackson_nasachatbot_domain_PayLoad" object="${payload}" path="/payloads" z="KI4AMfEzEXJ4byj5BoXv25R6H6w=">
         <field:display field="templateType" id="s_com_nasa_hackson_nasachatbot_domain_PayLoad_templateType" object="${payload}" z="e9x3L2s9VOF1GhUJuIKgibzT2lM="/>
-        <field:display field="elements" id="s_com_nasa_hackson_nasachatbot_domain_PayLoad_elements" object="${payload}" z="E1W/ls68Klff4p6PmqfB3EP9dyk="/>
+        <field:display field="name" id="s_com_nasa_hackson_nasachatbot_domain_PayLoad_name" object="${payload}" z="ejir23xx24QNDVju1UEnKp7Hkzs="/>
     </page:show>
 </div>

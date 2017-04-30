@@ -5,5 +5,6 @@
     <page:show id="ps_com_nasa_hackson_nasachatbot_domain_Attachment" object="${attachment}" path="/attachments" z="1bcne3jkx6PKpo6A5adsWv6/XQ4=">
         <field:display field="type" id="s_com_nasa_hackson_nasachatbot_domain_Attachment_type" object="${attachment}" z="LvS5T4QwTI46o0/KN8SS0foaesI="/>
         <field:display field="payload" id="s_com_nasa_hackson_nasachatbot_domain_Attachment_payload" object="${attachment}" z="pTgZVxjwINnJQ/PsZtFlpE/qmJM="/>
+        <field:display field="name" id="s_com_nasa_hackson_nasachatbot_domain_Attachment_name" object="${attachment}" z="H70i0ryFYLD5ScZjSXtKfhD4cnE="/>
     </page:show>
 </div>

@@ -4,6 +4,7 @@
     <jsp:output omit-xml-declaration="yes"/>
     <form:create id="fc_com_nasa_hackson_nasachatbot_domain_Message" modelAttribute="message" path="/messages" render="${empty dependencies}" z="65qJcYfm3AIz9aalrppMQmOd4dA=">
         <field:select field="attachment" id="c_com_nasa_hackson_nasachatbot_domain_Message_attachment" itemValue="id" items="${attachments}" path="/attachments" z="Kt2u8/0ikncvC9qMST0DYk/av4c="/>
+        <field:input field="name" id="c_com_nasa_hackson_nasachatbot_domain_Message_name" z="ph5zRLRRN1uSXJXg6ODR0DyNBKs="/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_com_nasa_hackson_nasachatbot_domain_Message" render="${not empty dependencies}" z="RLvfChiccXjkXy6UWNItcqWoU3o="/>
 </div>

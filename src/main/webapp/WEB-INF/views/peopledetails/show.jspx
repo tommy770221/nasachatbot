@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_nasa_hackson_nasachatbot_domain_PeopleDetail" object="${peopledetail}" path="/peopledetails" z="jGqac023qb6XCPSeQNBpawGXdn0=">
+        <field:display field="msgId" id="s_com_nasa_hackson_nasachatbot_domain_PeopleDetail_msgId" object="${peopledetail}" z="LljPL+qQezukGebKE8TXZZaIoDA="/>
+        <field:display field="gender" id="s_com_nasa_hackson_nasachatbot_domain_PeopleDetail_gender" object="${peopledetail}" z="mTCxf9+UxpZWMneZvLMh6Ms4geA="/>
+        <field:display field="postionX" id="s_com_nasa_hackson_nasachatbot_domain_PeopleDetail_postionX" object="${peopledetail}" z="SVgFfrYj4UbcR2TwtPqDIf/qgrw="/>
+        <field:display field="postionY" id="s_com_nasa_hackson_nasachatbot_domain_PeopleDetail_postionY" object="${peopledetail}" z="kpjuycJaG2+06nd01fNvkNKhCBM="/>
+        <field:display field="country" id="s_com_nasa_hackson_nasachatbot_domain_PeopleDetail_country" object="${peopledetail}" z="xZ2ucSZLFZkb94MZWKsmn1ZST00="/>
+        <field:display field="age" id="s_com_nasa_hackson_nasachatbot_domain_PeopleDetail_age" object="${peopledetail}" z="/BhVw4Yr+FX3t8UdChGvXUkuJaE="/>
+        <field:display date="true" dateTimePattern="${peopleDetail_createdate_date_format}" field="createDate" id="s_com_nasa_hackson_nasachatbot_domain_PeopleDetail_createDate" object="${peopledetail}" z="IKDCJD6fD+SVWosECNer3QCBwEY="/>
+    </page:show>
+</div>
