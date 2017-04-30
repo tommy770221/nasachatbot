@@ -16,4 +16,12 @@ privileged aspect Message_Roo_JavaBean {
         this.attachment = attachment;
     }
     
+    public String Message.getName() {
+        return this.name;
+    }
+    
+    public void Message.setName(String name) {
+        this.name = name;
+    }
+    
 }

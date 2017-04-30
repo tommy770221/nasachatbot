@@ -17,7 +17,10 @@ privileged aspect Messagetemplate_Roo_Json {
         .exclude("*.class").serialize(this);
     }
     
-
+    public String Messagetemplate.toJson(String[] fields) {
+        return new JSONSerializer()
+        .include(fields).exclude("*.class").serialize(this);
+    }
     
     public static Messagetemplate Messagetemplate.fromJsonToMessagetemplate(String json) {
         return new JSONDeserializer<Messagetemplate>()

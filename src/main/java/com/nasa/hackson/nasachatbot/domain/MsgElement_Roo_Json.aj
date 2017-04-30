@@ -17,7 +17,10 @@ privileged aspect MsgElement_Roo_Json {
         .exclude("*.class").serialize(this);
     }
     
-
+    public String MsgElement.toJson(String[] fields) {
+        return new JSONSerializer()
+        .include(fields).exclude("*.class").serialize(this);
+    }
     
     public static MsgElement MsgElement.fromJsonToMsgElement(String json) {
         return new JSONDeserializer<MsgElement>()

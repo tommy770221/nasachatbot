@@ -1,4 +1,5 @@
 package com.nasa.hackson.nasachatbot.domain;
+import org.codehaus.jackson.annotate.JsonIgnore;
 import org.springframework.roo.addon.javabean.RooJavaBean;
 import org.springframework.roo.addon.jpa.activerecord.RooJpaActiveRecord;
 import org.springframework.roo.addon.tostring.RooToString;
@@ -15,4 +16,9 @@ public class Message {
      */
     @ManyToOne
     private Attachment attachment;
+
+    /**
+     */
+    @JsonIgnore
+    private String name;
 }

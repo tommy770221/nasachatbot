@@ -17,7 +17,11 @@ privileged aspect Attachment_Roo_Json {
         .exclude("*.class").serialize(this);
     }
     
-
+    public String Attachment.toJson(String[] fields) {
+        return new JSONSerializer()
+        .include(fields).exclude("*.class").serialize(this);
+    }
+    
     public static Attachment Attachment.fromJsonToAttachment(String json) {
         return new JSONDeserializer<Attachment>()
         .use(null, Attachment.class).deserialize(json);

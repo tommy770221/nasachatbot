@@ -14,7 +14,7 @@ privileged aspect PayLoad_Roo_Jpa_ActiveRecord {
     @PersistenceContext
     transient EntityManager PayLoad.entityManager;
     
-    public static final List<String> PayLoad.fieldNames4OrderClauseFilter = java.util.Arrays.asList("templateType", "elements");
+    public static final List<String> PayLoad.fieldNames4OrderClauseFilter = java.util.Arrays.asList("templateType", "name");
     
     public static final EntityManager PayLoad.entityManager() {
         EntityManager em = new PayLoad().entityManager;

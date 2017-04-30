@@ -8,6 +8,7 @@
             <table:column id="c_com_nasa_hackson_nasachatbot_domain_Button_url" property="url" z="yaE8CclUkJuxhlwLv/NRzu0BYt4="/>
             <table:column id="c_com_nasa_hackson_nasachatbot_domain_Button_title" property="title" z="TbBpOa3KakSjsmnIjwzlRn0pxCQ="/>
             <table:column id="c_com_nasa_hackson_nasachatbot_domain_Button_goTotemplate" property="goTotemplate" z="ijTUKri217qmEhXUaT0adSJiT1w="/>
+            <table:column id="c_com_nasa_hackson_nasachatbot_domain_Button_name" property="name" z="5xK4clXhHnzp7wTwlklO8p7fuC4="/>
         </table:table>
     </page:list>
 </div>

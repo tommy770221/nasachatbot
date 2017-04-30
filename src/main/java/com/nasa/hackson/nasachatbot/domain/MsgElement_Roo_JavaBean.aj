@@ -3,9 +3,7 @@
 
 package com.nasa.hackson.nasachatbot.domain;
 
-import com.nasa.hackson.nasachatbot.domain.Button;
 import com.nasa.hackson.nasachatbot.domain.MsgElement;
-import java.util.List;
 
 privileged aspect MsgElement_Roo_JavaBean {
     
@@ -33,12 +31,12 @@ privileged aspect MsgElement_Roo_JavaBean {
         this.subtitle = subtitle;
     }
     
-    public List<Button> MsgElement.getButtons() {
-        return this.buttons;
+    public String MsgElement.getName() {
+        return this.name;
     }
     
-    public void MsgElement.setButtons(List<Button> buttons) {
-        this.buttons = buttons;
+    public void MsgElement.setName(String name) {
+        this.name = name;
     }
     
 }

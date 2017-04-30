@@ -4,8 +4,6 @@
 package com.nasa.hackson.nasachatbot.domain;
 
 import com.nasa.hackson.nasachatbot.domain.Message;
-import org.codehaus.jackson.annotate.JsonIgnore;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -20,12 +18,10 @@ privileged aspect Message_Roo_Jpa_Entity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
-    @JsonIgnore
     private Long Message.id;
     
     @Version
     @Column(name = "version")
-    @JsonIgnore
     private Integer Message.version;
     
     public Long Message.getId() {

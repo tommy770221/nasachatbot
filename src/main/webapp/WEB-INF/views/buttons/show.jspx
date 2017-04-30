@@ -7,5 +7,6 @@
         <field:display field="url" id="s_com_nasa_hackson_nasachatbot_domain_Button_url" object="${button}" z="05Ub7y+2SJLKXmqPWaViw4QoxKU="/>
         <field:display field="title" id="s_com_nasa_hackson_nasachatbot_domain_Button_title" object="${button}" z="Jk4FL0hWoAKXkBDGNEOv643/uSQ="/>
         <field:display field="goTotemplate" id="s_com_nasa_hackson_nasachatbot_domain_Button_goTotemplate" object="${button}" z="u6q3etWihY1OBFfgmv8p1O9uN18="/>
+        <field:display field="name" id="s_com_nasa_hackson_nasachatbot_domain_Button_name" object="${button}" z="RGW9T5Pt/SC/PvstUfdAEVSXBos="/>
     </page:show>
 </div>

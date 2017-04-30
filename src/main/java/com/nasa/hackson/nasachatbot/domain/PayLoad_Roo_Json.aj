@@ -17,7 +17,11 @@ privileged aspect PayLoad_Roo_Json {
         .exclude("*.class").serialize(this);
     }
     
-
+    public String PayLoad.toJson(String[] fields) {
+        return new JSONSerializer()
+        .include(fields).exclude("*.class").serialize(this);
+    }
+    
     public static PayLoad PayLoad.fromJsonToPayLoad(String json) {
         return new JSONDeserializer<PayLoad>()
         .use(null, PayLoad.class).deserialize(json);

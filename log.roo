@@ -72,3 +72,30 @@ finder list
 finder add findButtonsByTitleEquals
 quit
 // Spring Roo 1.3.2.RELEASE [rev 8387857] log closed at 2017-04-29 20:05:34
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log opened at 2017-04-30 08:13:56
+quit
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log closed at 2017-04-30 08:14:04
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log opened at 2017-04-30 08:14:39
+quit
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log closed at 2017-04-30 08:14:44
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log opened at 2017-04-30 08:14:50
+focus --class ~.domain.Message
+field string --fieldName name
+focus --class ~.domain.MsgElement 
+// [failed] field string --fieldName name
+// [failed] field string --fieldName name
+// [failed] field string --fieldName name
+field string --fieldName name
+web mvc all --package ~.webjson.controller
+quit
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log closed at 2017-04-30 08:40:22
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log opened at 2017-04-30 08:50:33
+// [failed] focus --class ~.domain.Payload
+focus --class ~.domain.PayLoad
+field string --fieldName name
+focus --class ~.domain.Button
+field string --fieldName name
+focus --class ~.domain.Attachment
+field string --fieldName name
+quit
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log closed at 2017-04-30 08:55:48

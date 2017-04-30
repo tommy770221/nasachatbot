@@ -7,6 +7,7 @@
         <field:input field="url" id="c_com_nasa_hackson_nasachatbot_domain_Button_url" z="qWduzqMs4cW0wUNckP4IYJ2uiKE="/>
         <field:input field="title" id="c_com_nasa_hackson_nasachatbot_domain_Button_title" z="uP5BJMgL38mCFvCvE2KiIZK3f08="/>
         <field:input field="goTotemplate" id="c_com_nasa_hackson_nasachatbot_domain_Button_goTotemplate" validationMessageCode="field_invalid_integer" z="zQDnYNawnqxprPfj/jXdfuaKFM0="/>
+        <field:input field="name" id="c_com_nasa_hackson_nasachatbot_domain_Button_name" z="tkA1ikE2ecdHJVfh4w1AWT27tUA="/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_com_nasa_hackson_nasachatbot_domain_Button" render="${not empty dependencies}" z="9TcO7pJ4b+o+tOmFomx335WMMWE="/>
 </div>

@@ -14,7 +14,7 @@ privileged aspect Button_Roo_Jpa_ActiveRecord {
     @PersistenceContext
     transient EntityManager Button.entityManager;
     
-    public static final List<String> Button.fieldNames4OrderClauseFilter = java.util.Arrays.asList("type", "url", "title", "goTotemplate");
+    public static final List<String> Button.fieldNames4OrderClauseFilter = java.util.Arrays.asList("type", "url", "title", "goTotemplate", "name");
     
     public static final EntityManager Button.entityManager() {
         EntityManager em = new Button().entityManager;

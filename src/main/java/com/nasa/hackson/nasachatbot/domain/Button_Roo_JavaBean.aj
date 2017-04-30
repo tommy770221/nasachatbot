@@ -31,4 +31,12 @@ privileged aspect Button_Roo_JavaBean {
         this.title = title;
     }
     
+    public String Button.getName() {
+        return this.name;
+    }
+    
+    public void Button.setName(String name) {
+        this.name = name;
+    }
+    
 }

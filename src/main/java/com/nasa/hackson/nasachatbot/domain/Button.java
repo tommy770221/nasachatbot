@@ -1,4 +1,5 @@
 package com.nasa.hackson.nasachatbot.domain;
+import org.codehaus.jackson.annotate.JsonIgnore;
 import org.codehaus.jackson.annotate.JsonProperty;
 import org.springframework.roo.addon.javabean.RooJavaBean;
 import org.springframework.roo.addon.jpa.activerecord.RooJpaActiveRecord;
@@ -36,4 +37,9 @@ public class Button {
     public void setGoTotemplate(Long goTotemplate) {
         this.goTotemplate = goTotemplate;
     }
+
+    /**
+     */
+    @JsonIgnore
+    private String name;
 }

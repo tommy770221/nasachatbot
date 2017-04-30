@@ -1,5 +1,6 @@
 package com.nasa.hackson.nasachatbot.domain;
 import flexjson.JSONSerializer;
+import org.codehaus.jackson.annotate.JsonIgnore;
 import org.codehaus.jackson.annotate.JsonProperty;
 import org.springframework.roo.addon.javabean.RooJavaBean;
 import org.springframework.roo.addon.jpa.activerecord.RooJpaActiveRecord;
@@ -32,17 +33,6 @@ public class MsgElement {
 
     /**
      */
-    @ManyToMany(fetch = FetchType.EAGER,cascade = CascadeType.ALL)
-    private List<Button> buttons = new ArrayList<Button>();
-
-    public String toJson(String[] fields) {
-        ArrayList<String> fieldsTwo =new ArrayList<String>();
-        for(String str:fields){
-            fieldsTwo.add(str);
-        }
-
-        fieldsTwo.add("buttons");
-        return new JSONSerializer()
-                .include((String [])fieldsTwo.toArray()).exclude("*.class").serialize(this);
-    }
+    @JsonIgnore
+    private String name;
 }

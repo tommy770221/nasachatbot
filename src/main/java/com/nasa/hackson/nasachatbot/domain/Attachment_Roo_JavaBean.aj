@@ -24,4 +24,12 @@ privileged aspect Attachment_Roo_JavaBean {
         this.payload = payload;
     }
     
+    public String Attachment.getName() {
+        return this.name;
+    }
+    
+    public void Attachment.setName(String name) {
+        this.name = name;
+    }
+    
 }

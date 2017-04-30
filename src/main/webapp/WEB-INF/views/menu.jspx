@@ -31,5 +31,9 @@
             <menu:item id="i_peopledecision_new" messageCode="global_menu_new" url="/peopledecisions?form" z="JbrDvqJWCYc3JodZ9vhrhdx0kuc="/>
             <menu:item id="i_peopledecision_list" messageCode="global_menu_list" url="/peopledecisions?page=1&amp;size=${empty param.size ? 10 : param.size}" z="ZJ+c0KAai6ZoDK4YnFEZ2qsliNo="/>
         </menu:category>
+        <menu:category id="c_peopledetail" z="uTwKolS482oSmjvyhoBAWev80iI=">
+            <menu:item id="i_peopledetail_new" messageCode="global_menu_new" url="/peopledetails?form" z="ifs7UVHzHUdwAgFx25HL2YGsB+M="/>
+            <menu:item id="i_peopledetail_list" messageCode="global_menu_list" url="/peopledetails?page=1&amp;size=${empty param.size ? 10 : param.size}" z="4FHIgN4CoW50bmmxBFCzXXOGLQ8="/>
+        </menu:category>
     </menu:menu>
 </div>

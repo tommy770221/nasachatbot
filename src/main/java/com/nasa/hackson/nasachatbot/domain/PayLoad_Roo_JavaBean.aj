@@ -3,9 +3,7 @@
 
 package com.nasa.hackson.nasachatbot.domain;
 
-import com.nasa.hackson.nasachatbot.domain.MsgElement;
 import com.nasa.hackson.nasachatbot.domain.PayLoad;
-import java.util.List;
 
 privileged aspect PayLoad_Roo_JavaBean {
     
@@ -17,12 +15,12 @@ privileged aspect PayLoad_Roo_JavaBean {
         this.templateType = templateType;
     }
     
-    public List<MsgElement> PayLoad.getElements() {
-        return this.elements;
+    public String PayLoad.getName() {
+        return this.name;
     }
     
-    public void PayLoad.setElements(List<MsgElement> elements) {
-        this.elements = elements;
+    public void PayLoad.setName(String name) {
+        this.name = name;
     }
     
 }

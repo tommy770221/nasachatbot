@@ -21,14 +21,5 @@ public class Messagetemplate {
     @ManyToMany(fetch = FetchType.EAGER,cascade = CascadeType.ALL)
     private List<Message> messages = new ArrayList<Message>();
 
-    public String toJson(String[] fields) {
-        ArrayList<String> fieldsTwo =new ArrayList<String>();
-        for(String str:fields){
-            fieldsTwo.add(str);
-        }
 
-        fieldsTwo.add("messages");
-        return new JSONSerializer()
-                .include(fields).exclude("*.class").serialize(this);
-    }
 }

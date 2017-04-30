@@ -14,7 +14,7 @@ privileged aspect Message_Roo_Jpa_ActiveRecord {
     @PersistenceContext
     transient EntityManager Message.entityManager;
     
-    public static final List<String> Message.fieldNames4OrderClauseFilter = java.util.Arrays.asList("attachment");
+    public static final List<String> Message.fieldNames4OrderClauseFilter = java.util.Arrays.asList("attachment", "name");
     
     public static final EntityManager Message.entityManager() {
         EntityManager em = new Message().entityManager;
